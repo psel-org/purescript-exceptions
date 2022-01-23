@@ -1,5 +1,5 @@
 { name = "exceptions"
-, dependencies = [ "effect", "either", "maybe", "prelude" ]
+, dependencies = [ "effect", "either", "maybe", "prelude" ] # [ "assert" ]
 , packages =
     https://raw.githubusercontent.com/psel-org/package-sets/main/src/el-0.14.5-20211116/packages.dhall
 , backend = "psel"
